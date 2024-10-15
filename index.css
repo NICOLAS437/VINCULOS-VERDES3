@@ -1,0 +1,201 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(70, 168, 70);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+#HERO{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(jw.png);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+
+    
+    
+}
+
+#HERO h1{
+    font-size: 80px;
+}
+
+#Quienes-somos .container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#Quienes-somos .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    
+
+}
+#Quienes-somos h2{
+    margin-top: 0px;
+}
+#Quienes-somos .img-container{
+    margin-top: 70px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(pl.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+    
+}
+
+#Nuestros-Paquetes .programas{
+    box-shadow: 0 .3rem 5rem rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 34, 34);
+}
+
+#Nuestros-Paquetes .container{
+    margin-top: 0;
+    padding: 40px 0px;
+
+    
+    
+}
+    
+
+
+
+#Nuestros-Paquetes p{
+    color: rgb(247, 247, 247);
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    
+    
+   
+
+    
+}
+
+#Nuestros-Paquetes h3{
+    color: white;
+    margin-top: 0;
+    
+
+}
+
+#Nuestros-Paquetes .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px ;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 70px 0px;
+    
+
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(WhatsApp\ Image\ 2024-10-14\ at\ 5.03.53\ PM.jpeg);
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(WhatsApp\ Image\ 2024-10-14\ at\ 5.05.58\ PM.jpeg);
+
+
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(WhatsApp\ Image\ 2024-10-14\ at\ 4.58.37\ PM.jpeg);
+
+
+}
+
+.nuestras-redes .img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nuestras-redes{
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
